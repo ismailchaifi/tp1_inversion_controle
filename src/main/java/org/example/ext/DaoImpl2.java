@@ -1,6 +1,6 @@
-package ext;
+package org.example.ext;
 
-import dao.IDao;
+import org.example.dao.IDao;
 
 public class DaoImpl2 implements IDao {
     @Override

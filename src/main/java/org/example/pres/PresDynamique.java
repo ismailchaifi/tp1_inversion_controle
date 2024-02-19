@@ -1,7 +1,7 @@
-package pres;
+package org.example.pres;
 
-import dao.IDao;
-import metier.IMetier;
+import org.example.dao.IDao;
+import org.example.metier.IMetier;
 
 import java.io.File;
 import java.lang.reflect.Method;

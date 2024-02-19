@@ -1,7 +1,7 @@
-package pres;
+package org.example.pres;
 
-import dao.DaoImpl;
-import metier.MetierImpl;
+import org.example.dao.DaoImpl;
+import org.example.metier.MetierImpl;
 
 public class PresStatique {
     public static void main(String[] args) {

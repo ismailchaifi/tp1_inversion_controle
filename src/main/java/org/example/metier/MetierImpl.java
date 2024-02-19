@@ -1,6 +1,6 @@
-package metier;
+package org.example.metier;
 
-import dao.IDao;
+import org.example.dao.IDao;
 
 public class MetierImpl implements IMetier {
     private IDao dao;
