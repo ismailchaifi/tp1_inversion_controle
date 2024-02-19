@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class PresDynamique {
     public static void main(String[] args) throws Exception {
-        Scanner sc = new Scanner(new File("config.txt"));
+        Scanner sc = new Scanner(new File("src/main/resources/config.txt"));
 
         String daoClassName = sc.nextLine();
         Class<?> cDao = Class.forName(daoClassName);
