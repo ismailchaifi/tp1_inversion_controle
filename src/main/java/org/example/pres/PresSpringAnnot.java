@@ -9,6 +9,5 @@ public class PresSpringAnnot {
         ApplicationContext context = new AnnotationConfigApplicationContext("org.example.dao", "org.example.metier");
         IMetier metier = context.getBean(IMetier.class);
         System.out.println(metier.calcul());
-
     }
 }
