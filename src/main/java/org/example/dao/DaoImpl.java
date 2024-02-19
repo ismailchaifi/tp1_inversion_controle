@@ -1,5 +1,8 @@
 package org.example.dao;
 
+import org.springframework.stereotype.Repository;
+
+@Repository("dao")
 public class DaoImpl implements IDao {
 
     @Override
